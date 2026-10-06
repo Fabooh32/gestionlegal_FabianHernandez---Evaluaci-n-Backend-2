@@ -1,12 +1,12 @@
 # GestionLegal — Evaluación 2 Backend - Fabián Hernández
 
-Backend de GestionLegal con 2 entidades
-|---------------|-------------------------------------|------------------------|
+# Backend de GestionLegal con 2 entidades
+
 |    Entidad    |                Rol                  |         Tabla          |
 |---------------|-------------------------------------|------------------------|
 | **Servicio**  | Principal (catálogo)                | `gestoria_servicio`    |
 | **Solicitud** | Secundaria (formulario de contacto) | `gestoria_solicitudes` |
-|---------------|-------------------------------------|------------------------|
+
 
 # Estructura de la Api GestionLegal
 
