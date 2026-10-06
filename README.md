@@ -51,19 +51,25 @@ python manage.py runserver
 # 2- Crear el superusuario/token
 
 python manage.py createsuperuser
+
 	usuario: user
+	
 	password: 1234
 
 python manage.py runserver
 
 Para obtener el token:
+
 POST http://127.0.0.1:8000/api/token/
 
 Pestaña Body → Form → agregar dos campos:
+
 username	:	user
+
 password	:	1234
 
 Pestaña Headers → agregar un campo:
+
 Content-Type	:	application/x-www-form-urlencoded
 
 
