@@ -31,10 +31,15 @@ gestoria/
 # 1- Levantar el Backend
 
 cd gestionlegal_api (en caso de no estar en la carpeta)
+
 python -m venv entorno
+
 entorno\Scripts\activate
+
 	->(EN CASO DE QUE NO FUNCIONE, EJECUTAR: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned)
+	
 pip install -r requirements.txt
+
 python manage.py migrate
 
 (COMPLETAR PASO 2 ANTES DE CONTINUAR)
