@@ -64,7 +64,7 @@ Content-Type	:	application/x-www-form-urlencoded
 
 
 # 3- Lista de endpoints disponibles en la API 
-|--------|--------------------------|---------------------------------------------------------|
+
 | Método |            URL           |                       Qué hace                          |
 |--------|--------------------------|---------------------------------------------------------|
 | POST   | `/api/token/`            | Login: devuelve el token                                | 
@@ -78,7 +78,7 @@ Content-Type	:	application/x-www-form-urlencoded
 | GET    | `/api/solicitudes/<id>/` | Detalle de una solicitud                                |
 | PUT    | `/api/solicitudes/<id>/` | Actualiza una solicitud (campos enviados)               |
 | DELETE | `/api/solicitudes/<id>/` | Elimina una solicitud                                   |
-|--------|--------------------------|---------------------------------------------------------|
+
 
 
 
